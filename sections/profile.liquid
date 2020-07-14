@@ -1,0 +1,41 @@
+{% schema %}
+  {
+    "name": "Profile",
+
+    "settings": [
+ 
+      
+      {
+        "type": "image_picker",
+        "id": "user_img",
+        "label": "User Photo"
+
+      },
+       {
+        "type": "text",
+        "id": "user_name",
+        "label": "User name"
+      },
+         {
+        "type": "richtext",
+        "id": "user_bio",
+        "label": "User bio"
+      }
+
+
+    ],
+
+    "presets": [
+      {
+        "category": "Profile",
+        "name": "User Profile  "  
+       
+      }
+    ]
+  }
+{% endschema %}
+
+{% comment %}  
+Preset would show a default value for your section {% endcomment
+Settings: type: type of data, ID, and label. 
+ %}
